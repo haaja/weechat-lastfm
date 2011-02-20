@@ -24,7 +24,7 @@ use XML::Simple;
 # settings
 my %settings = (
 	username => "yourusername",
-	apikey => "eba9632ddc908a8fd7ad1200d771beb7",
+	apikey => "abb245873128d3a6b1a0c8fdc4ac7fc1",
 	command => "np",
 );
 
