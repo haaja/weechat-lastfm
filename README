@@ -1,0 +1,19 @@
+lastfm.pl
+
+	Info:
+		- Now playing script for weechat.
+
+	Requires:
+		- Account on last.fm (and scrobbler obviously)
+		- Weechat with perl support
+		- Following CPAN modules:
+			- LWP::Simple
+			- XML::Simple
+
+	Usage:
+		- Put the script into ~/.weechat/perl/autoload/
+		- Load the script /perl load perl/autoload/lastfm.pl
+		- Set you lastfm username /set plugin.var.perl.lastfm.username yourusername
+
+	Todo:
+		- Make it run as a background process with hook_process
